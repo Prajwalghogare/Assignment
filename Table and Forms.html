@@ -2,7 +2,38 @@
 
 <title>Table and Form</title>
 
-<b><th>Marks Table:-</th></b><br>
+<html>
+<head>
+<style>
+h1, h2, p {
+  text-align: center;
+  color: brown;
+  background-color: magenta;
+
+ 
+</style>
+</head>
+<body>
+
+
+<b><h1 style="font-family: arial;">Welcome</h1></b>
+
+
+<ul>
+  <li>Marks</li>
+  <li>Personal Information</li>
+  <li>Choose your fav language</li>
+</ul>
+
+</body>
+</html>
+
+
+
+<b><th style="text-align: right;">Marks Table:-</th></b><br>
+
+
+
 
 <br><table border="2">  
     <tr><th>First_Name</th><th>Last_Name</th><th>Marks</th><th>Roll number</th></tr>  
@@ -14,20 +45,27 @@
     </body>
     </html><br>
 
-    <br><marquee width="100%" direction="right" height="100px">
+
+    <body style="background-color:powderblue;">
+
+      <h1>IMP NOTICE</h1>
+      
+      </body>
+
+    <br><b><marquee style="color: red;" width="100%" direction="right" height="100px">
         ALL STUDENTS MUST FILL THE FOLLOWING FORM
-        </marquee>
+        </marquee></b>
         
     <b><th>Personal Information:-</th></b>
 
     <form><br>
-        <label for="fname">First Name</label><br>
+        <b><label style="color: green;" for="fname">First Name</label></b><br>
         <input type="text" id='fname' name="fname"><br>
-        <label for="lname">Last Name</label><br>
+        <b><label style="color: brown;"" for="lname">Last Name</label></b><br>
         <input type="text" id='lname' name='lname'><br>
-        <label for="bname">Branch</label><br>
+        <b><label style="color: blueviolet;" for="bname">Branch</label></b><br>
         <input type="text" id='bname' name='bname'><br>
-        <label for="rno">Roll No</label><br>
+        <b><label style="color: rgb(0, 26, 255);" for="rno">Roll No</label></b><br>
         <input type="int" id='rno' name='rno'><br>
 
      
@@ -40,7 +78,16 @@
         <input type="radio" id="css" name="fav_language" value="HTML">
         <label for="css">HTML</label><br>
         <input type="radio" id="javascript" name="fav_language" value="PYTHON">
-        <label for="javascript">PYTHON</label>
+        <label for="javascript">PYTHON</label><br>
+        <form action="/action_page.php" method="get">
+        <br><button type="submit" value="Submit">Submit</button>
+        <button type="reset" value="Reset">Reset</button>
+        </form>
+  
       </form>
-    
+
+
+
+
+      
      

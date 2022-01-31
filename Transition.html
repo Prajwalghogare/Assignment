@@ -1,0 +1,36 @@
+<h1>
+    Click on the following to see what happens</h1>
+
+<button id="color">Click me</button>
+
+<style>
+    #color {
+        transition-property: background-color;
+        transition-duration: 3s;
+    }
+    
+    div {
+        width: 100px;
+        height: 100px;
+        background: red;
+        transition: width 2s, height 4s;
+    }
+    
+    div:hover {
+        width: 300px;
+        height: 300px;
+    }
+</style>
+
+<script>
+    color.onclick = function() {
+        this.style.backgroundColor = 'red';
+    };
+</script>
+
+
+<h1>Size changing transition</h1>
+
+<p>Take Cursor on the box to change its size</p>
+
+<div></div>
