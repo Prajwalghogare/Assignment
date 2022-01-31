@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript day two</title>
+</head>
+
+<body>
+    <script>
+        //simple object creation using literal
+        function fun1() {
+
+            const person = {
+                name: 'Prajwal',
+                address: 'Sangamner',
+                phone: '8390110610',
+            }
+            console.log(person)
+        }
+        fun1()
+
+        //object within object
+
+        function fun2() {
+            const laptop = {
+                model: 'Dell inspiron 15',
+                company: 'Dell',
+                price: '64990',
+                details: {
+                    RAM: '8Gb',
+                    SSD: '552Gb',
+                    Storage: '1Tb',
+                    Generation: '11th generation',
+                },
+                features: ['best camera', 'clssic design', 'superfast', 'gaming']
+            }
+            console.log(laptop)
+        }
+        fun2()
+    </script>
+</body>
+
+</html>
